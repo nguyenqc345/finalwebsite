@@ -7,7 +7,7 @@ Why It Needs to Be Solved:
     A lot of to-do lists online don't have many options in terms of organization and aesthetics. 
 
 Things to include 
-- make the box for item input
+- make the box for item input 
 - allow user to move around each task
 - allow user to color code tasks
 - add checkboxes
