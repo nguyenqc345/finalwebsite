@@ -10,12 +10,10 @@ function ready(){
             elem.remove()
             button.remove()
         };
-        var check = document.createElement("INPUT");
-        check.setAttribute("type", "checkbox");
-
+        document.getElementById("input").value="";
         list.append(elem);
         elem.append(button);
-        elem.prepend(check)
+        
     };
 
 }
