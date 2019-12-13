@@ -4,7 +4,7 @@ function ready(){
         let item = document.getElementById("input").value;
         let elem = document.createElement('li');
         elem.innerHTML = item;
-        let button = document.createElement('button');
+        let button = document.createElement('span');
         button.innerHTML = "X";
         button.onclick = function(){
             elem.remove()
@@ -13,7 +13,7 @@ function ready(){
         button.className = "close"
         document.getElementById("input").value="";
         list.append(elem);
-        elem.append(button);
+        elem.appendChild(button);
         
     };
 
