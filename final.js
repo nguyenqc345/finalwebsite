@@ -13,7 +13,7 @@ function ready(){
         button.className = "close"
         document.getElementById("input").value="";
         list.append(elem);
-        elem.appendChild(button);
+        elem.append(button);
         
     };
 

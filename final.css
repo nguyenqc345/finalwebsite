@@ -8,6 +8,9 @@ body{
     text-align:center;
 
 }
+* {
+    box-sizing: border-box;
+  }
 .heading{
     text-align: center;
     float: none; 
@@ -20,11 +23,12 @@ body{
     width:97%;
     height:3%; 
     float: left; 
-    font-size: 18 px;
+    font-size: 18px;
 }
  li{
      text-align: left;
-     padding: 12px 8px 12px 40px;
+     vertical-align: baseline;
+     height: 32px;
      background: #eee;
      font-size: 18px;
      transition: 0.2s;
@@ -32,8 +36,10 @@ body{
 
  .close{
     right:0; 
-    padding: 12px 8px 12px 40px;
-    background: #eee;
-    font-size: 18px;
-    transition: 0.2s;
+    margin-top: 0;
+    position: absolute;;
+    margin-right: 10px;
+    background: gray;
+    border: 5px solid gray;
+    vertical-align: baseline;
  }
