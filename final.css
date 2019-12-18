@@ -1,13 +1,19 @@
 body{
-    background:cornsilk;
+    background:#65d6cd;
 }
 .add{
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.20rem;
     text-align:center;
+    background-color:aliceblue;
+    background: size 60px;
 
 }
+ul {
+    margin: 0;
+    padding: 0;
+  }
 * {
     box-sizing: border-box;
   }
@@ -27,9 +33,7 @@ body{
 }
  li{
      text-align: left;
-     vertical-align: baseline;
-     height: 32px;
-     background: #eee;
+     height: relative;
      font-size: 18px;
      transition: 0.2s;
  }
@@ -37,9 +41,18 @@ body{
  .close{
     right:0; 
     margin-top: 0;
-    position: absolute;;
+    position: absolute;
     margin-right: 10px;
-    background: gray;
-    border: 5px solid gray;
-    vertical-align: baseline;
+ }
+ select{
+     right:0;
+     position: absolute;
+     size: relative; 
+     margin-bottom: 2px; 
+     margin-right:25px;
+ }
+
+.checked{
+     text-decoration:line-through;
+     background:gray;
  }
