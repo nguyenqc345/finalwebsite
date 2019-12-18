@@ -10,10 +10,10 @@ body{
     background: size 60px;
 
 }
-ul {
-    margin: 0;
-    padding: 0;
-  }
+ul{
+    margin:0; 
+    padding:0;
+}
 * {
     box-sizing: border-box;
   }
@@ -35,7 +35,7 @@ ul {
      text-align: left;
      height: relative;
      font-size: 18px;
-     transition: 0.2s;
+     transition: 0.2s;  
  }
 
  .close{

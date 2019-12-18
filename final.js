@@ -3,7 +3,7 @@ add.onclick = function (){
         let item = document.getElementById("input").value;
         let item2 = document.getElementById("input2").value;
         let elem = document.createElement('li');
-        elem.innerHTML = item
+        elem.innerHTML = item + "| Due Date:" + item2;
         elem.setAttribute('id', "color");
         let button = document.createElement('span');
         let check = document.createElement("input")
@@ -54,16 +54,5 @@ add.onclick = function (){
         elem.append(button);
         elem.append(menu);
         elem.prepend(check);
-
-        check.onmouseover = function(){
-            elem.innerHTML = "Due Date:" + item2
-        };
-        elem.onmouseout = function(){
-            elem.innerHTML = item
-            list.append(elem);
-            elem.append(button);
-            elem.append(menu);
-            elem.prepend(check);
-        }
         
     };
